@@ -11,11 +11,11 @@ import sys
 # Print out the command line arguments in sys.argv, one per line:
 # YOUR CODE HERE
 # print ("This script is called:", (sys.argv[0]))
-print ("This is the number of arguments:", len(sys.argv))
-print ("The arguments are:", [sys.argv])
+# print ("This is the number of arguments:", len(sys.argv))
+# print ("The arguments are:", [sys.argv])
 
-# for items in sys.argv:
-#   print(items)
+for items in sys.argv:
+  print(items)
 
 
 # Print out the OS platform you're using:
@@ -25,7 +25,7 @@ print(os.name)
 import platform
 print(platform.system())
 print(platform.release())
-## could also just use this👇🏼
+## could also just use this
 print(sys.platform)
 
 
