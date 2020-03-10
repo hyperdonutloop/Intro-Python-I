@@ -1,6 +1,5 @@
 # Write a function is_even that will return true if the passed-in number is even.
 
-# YOUR CODE HERE
 def is_even(i):
   return True if i % 2 == 0 else False
 
@@ -13,5 +12,4 @@ if is_even(num):
   print("Even!")
 else:
   print("Odd!")
-# YOUR CODE HERE
 
