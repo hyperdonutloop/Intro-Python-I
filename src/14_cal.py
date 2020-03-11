@@ -40,5 +40,7 @@ else:
   print("Expected format to be: `14_cal.py month [year]`")
   exit()
 
-
+# get args first
+# args = sys.argsv
+# print(args)
 
