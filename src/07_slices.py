@@ -18,15 +18,18 @@ print(a[1])
 print(a[-2])
 
 # Output the last three elements in the array: [7, 9, 6]
+# counts back from -1 starting with 6, then selects everything after
 print(a[-3:])
 
 # Output the two middle elements in the array: [1, 7]
+# print index 2 and UP TO the 4th index
 print(a[2:4])
 
 # Output every element except the first one: [4, 1, 7, 9, 6]
 print(a[1:])
 
 # Output every element except the last one: [2, 4, 1, 7, 9]
+# starts at 0 and goes UP TO the last number which always starts at -1
 print(a[:-1])
 
 # For string s...
